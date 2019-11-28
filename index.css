@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
 	background: url(https://i.imgflip.com/1asae3.jpg) repeat;
 		text-decoration: none;
@@ -58,14 +65,14 @@ iframe {
 
 
 .top-navbar {
-	height: 20px;
-	width: 1500px;
+	height: 24%;
+	width: 100%;
 	font-size: 42px;
 	position: fixed;
 	top: 0;
 	right: 0;
 	text-align: right;
-	display: inline;
+	display: inline-block;
 	background-color: Aquamarine;
 	font-family: 'Permanent Marker', sans;
 	border-right: 10px solid Aquamarine;
@@ -103,10 +110,8 @@ border-radius: 10px;
 
 .bio-story {
 	display: flex;
-	width: 700px;
 	height: 300px;
-	padding: 7px;
-	margin: 8px;
+	margin-left: 2em;
 }
 
 #training {
